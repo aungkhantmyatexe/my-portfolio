@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Cyber Security & Photo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="nav-wrapper">
+        <nav>
+            <div class="logo"><a href="index.html">user@portfolio:~/$</a></div>
+            <div class="nav-links">
+                <a href="index.html">./home</a>
+                <a href="projects.html">./projects</a>
+                <a href="blog.html">./blog</a>
+                <a href="gallery.html">./gallery</a>
+                <a href="contact.html">./contact</a>
+            </div>
+            <div class="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+        </nav>
+    </div>
+
+    <header>
+        <h1>Hello, I'm <span class="highlight">Your Name</span>.</h1>
+        <div id="typing-text" class="typewriter"></div>
+        <p class="hero-sub">Exploring the digital world through <strong>Cyber Security</strong> and the physical world through <strong>Street Photography</strong>.</p>
+    </header>
+
+    <section>
+        <h2 class="section-title">Latest Security Work</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3><a href="projects.html">Network Packet Sniffer</a></h3>
+                <p>A Python-based tool to analyze local network traffic.</p>
+                <br><div class="tags"><span>Python</span><span>Wireshark</span></div>
+            </div>
+            <div class="card">
+                <h3><a href="projects.html">Penetration Testing Lab</a></h3>
+                <p>Virtual lab environment for ethical hacking practice.</p>
+                <br><div class="tags"><span>Kali Linux</span><span>Bash</span></div>
+            </div>
+        </div>
+        <div class="center-btn"><a href="projects.html" class="btn-outline">View All Projects &rarr;</a></div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Latest Logs</h2>
+        <div class="blog-list">
+            <a href="blog.html" class="blog-item">
+                <h3>The Ethics of White Hat Hacking</h3>
+                <span class="blog-date">Jan 03, 2026</span>
+            </a>
+            <a href="blog.html" class="blog-item">
+                <h3>Why I switched to Arch Linux</h3>
+                <span class="blog-date">Dec 15, 2025</span>
+            </a>
+        </div>
+        <div class="center-btn"><a href="blog.html" class="btn-outline">Read All Posts &rarr;</a></div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Recent Captures</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="https://images.unsplash.com/photo-1478791090338-9da4181a9435?auto=format&fit=crop&w=1000&q=80" alt="Street">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="https://images.unsplash.com/photo-1549487673-9a7442750e57?auto=format&fit=crop&w=1000&q=80" alt="Street">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="https://images.unsplash.com/photo-1517146783983-418c68ffb0fc?auto=format&fit=crop&w=1000&q=80" alt="Street">
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="https://images.unsplash.com/photo-1520697837318-771a36486e9f?auto=format&fit=crop&w=1000&q=80" alt="Street">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span><span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span><span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <div class="center-btn"><a href="gallery.html" class="btn-outline">View Gallery &rarr;</a></div>
+    </section>
+
+    <footer id="contact">
+        <p>Built securely. &copy; 2026 Your Name.</p>
+        <p>Email: <a href="mailto:you@example.com" class="highlight">you@example.com</a></p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
